@@ -1,0 +1,94 @@
+p{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: white;
+}
+.baslik{
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-size: 51px;
+    margin-left: 100px;
+}
+.metin{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-left: 102px;
+}
+.desc{
+    width: 1920px;
+    height: 581px;
+    background-color: #282f35;
+    display: flex;
+}
+.resim{
+    width: 475px;
+    height:510px;
+    margin-top:35px;
+    margin-bottom:36px;
+    margin-left: 350px;
+}
+.float-container {
+    display: flex;
+    padding: 20px;
+}
+
+.float-child {
+    width: auto;
+    padding: 20px;
+    margin-top: 20px ;
+    
+}  
+/*For tablet*/
+@media screen and (max-width: 600px){
+.desc{
+height: auto;
+width: auto;
+}
+.baslik{
+    margin-top: 0px;
+    font-size: 20px;
+}
+.metin{
+    font-size: 10px;
+}
+.resim{
+    width: auto;
+    height: 150px;
+    margin-top: 100px;
+}
+.float-child{
+    margin-top: 200px;
+    width: 200px;
+    height: 100px;
+    margin-right: 200px;
+    position: absolute;
+    background-color: aliceblue;
+    margin-left: 100px;
+    
+}
+}
+/* For desktop*/
+@media  screen and (min-width: 601px) and (max-width:1249px) {
+.desc{
+    height: auto;
+    width: auto;
+}
+.baslik{
+    font-family: "Montserrat";
+    font-size: 30px;
+    margin-top: 50px;
+}
+.metin{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.resim{
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.float.child{
+flex-direction: column;
+}
+}

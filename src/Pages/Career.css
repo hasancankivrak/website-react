@@ -1,0 +1,10 @@
+.kutu{
+    height: 448px;
+    width: 448px;
+    background-color:#282F35 ;
+    border-radius: 10px 10px 10px 10px;
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 25px;
+}

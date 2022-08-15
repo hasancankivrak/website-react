@@ -1,0 +1,16 @@
+  ::placeholder{
+    text-align: left;
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 60px;
+  }
+  @media screen and (min-width:200px) and (max-width:1024px) {
+    ::placeholder{
+      font-size: 15px;
+      text-align: left;
+      padding-left: 5px;
+      
+    }
+  }

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white relative leading-relaxed font-extralight;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  }
+  a {
+    @apply text-[15px] font-medium;
+  }
+  .btn {
+    @apply font-medium h-12 px-8 bg-[#FC5723] text-white text-center rounded-md
+  }
+}
