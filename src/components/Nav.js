@@ -55,7 +55,7 @@ function Nav() {
 
                   <button
                     href="#"
-                    className="bg-[#FC5723] text-white hover:text-black font-bold py-2 px-4 rounded-full"
+                    className="bg-blue text-white hover:text-black font-bold py-2 px-4 rounded-full"
                   >
                     CONTACT US
                   </button>
