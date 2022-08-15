@@ -13,7 +13,7 @@ const Banner = () => {
                                     GAME-FI<br/>
                                     NFT
                                     </h3>
-                                    <button className="text-black bg-[#FC5723] focus:ring-4 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 md:h-[50px] md:w-[130px] sm:mr-[-10px]"><a href="#">EXPLORE ↓</a></button>
+                                    <button className="text-black bg-[#1AADD8] focus:ring-4 rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 md:h-[50px] md:w-[130px] sm:mr-[-10px]"><a href="#">EXPLORE ↓</a></button>
                             </div>
                         </div>
                 </div>

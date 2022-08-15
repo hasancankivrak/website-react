@@ -3,7 +3,7 @@ import Logo from "../assets/logo2.png";
 import "./desc.css";
 const Desc = () => {
     return (
-        <div className="flex bg-[#282F35] relative lg:h-[581px] lg:w-[1920px] sm:w-auto sm:h-auto md:w-[500px] md:h-[500px] " id="aboutus" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
+        <div className="flex bg-[#0A3E78] relative lg:h-[581px] lg:w-[1920px] sm:w-auto sm:h-auto md:w-[500px] md:h-[500px] " id="aboutus" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
             {/*Text and image div*/}
             <div className="lg:space-x-[1px] lg:flex lg:flex-row md:flex-col sm:flex-col">
                 <div className="lg:space-y-[30px] md:flex-col md:space-y-[0px] sm:flex-col sm:space-y-[0px]">

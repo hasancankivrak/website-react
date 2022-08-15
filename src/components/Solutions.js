@@ -4,19 +4,19 @@ import Img1 from "../assets/sol1.png";
 import Img2 from "../assets/sol2.png";
 const Solt = () => {
     return (
-        <div className="flex bg-[#1B2022] lg:w-[1920px] lg:h-[982px] md:w-full md:h-[700px] sm:h-[600px] sm:w-auto  relative" id="solutions">
+        <div className="flex bg-[#0A2C59] lg:w-[1920px] lg:h-[982px] md:w-full md:h-[700px] sm:h-[600px] sm:w-auto  relative" id="solutions">
             {/*Head content div*/}
             <div className="flex flox-row ml-[10px]">
-            <div style={{ borderTop: "6px solid #FC5723 ",}} className="lg:w-[581px] lg:ml-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:mr-[5px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+            <div style={{ borderTop: "6px solid #1FACD7 ",}} className="lg:w-[581px] lg:ml-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:mr-[5px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
             </div>
             <div className="text-center lg:text-[51px] lg:ml-[30px] lg:mr-[30px] sm:text-[30px]"data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">SOLUTIONS</div>
-            <div style={{ borderTop: "6px solid #FC5723 ",}} className="lg:w-[581px] lg:mr-[181px] lg:mt-[40px] sm:w-[90px] sm:mt-[20px] sm:ml-[5px]" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000"></div>
+            <div style={{ borderTop: "6px solid #1FACD7 ",}} className="lg:w-[581px] lg:mr-[181px] lg:mt-[40px] sm:w-[90px] sm:mt-[20px] sm:ml-[5px]" data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000"></div>
             </div>
             {/*End of head content div*/}
             {/*Content div*/}
             <div className="lg:space-x-[200px] lg:flex lg:flex-row md:flex-col sm:flex-col">
                 {/*First image div*/}
-                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[120px] lg:ml-[-1750px] lg:mb-[99px] bg-[#282F35] rounded-[20px] md:h-[300px] md:w-[300px] md:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[-280px] sm:mt-[50px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[120px] lg:ml-[-1750px] lg:mb-[99px] bg-[#0A3E78] rounded-[20px] md:h-[300px] md:w-[300px] md:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[-280px] sm:mt-[50px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
                     {/*First image text div*/}
                     <div className="lg:h-[49px] lg:w-[356px] lg:mt-[35px] lg:ml-[38px] lg:mr-[345px] md:h-[10px] md:w-full">
                         <p className="text-white lg:text-[35px] md:text-[25px] md:ml-[20px] sm:text-[20px] sm:ml-[10px]">VR INTEGRATION</p>
@@ -34,7 +34,7 @@ const Solt = () => {
                 </div>
                 {/*End of first image div*/}
                 {/*Second image div*/}
-                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[120px] lg:ml-[50px] lg:mb-[99px] bg-[#282F35] rounded-[20px] md:h-[300px] md:w-[300px] md:mt-[50px] sm:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[-280px] sm:mt-[40px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[120px] lg:ml-[50px] lg:mb-[99px] bg-[#0A3E78] rounded-[20px] md:h-[300px] md:w-[300px] md:mt-[50px] sm:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[-280px] sm:mt-[40px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
                     {/*Second image text div*/}
                     <div className="lg:h-[49px] lg:w-[356px] lg:mt-[35px] lg:ml-[38px] lg:mr-[345px] md:h-[10px] md:w-full">
                         <p className="text-white lg:text-[35px] md:text-[25px] md:ml-[20px] sm:text-[20px] sm:ml-[10px]">VR INTEGRATION</p>

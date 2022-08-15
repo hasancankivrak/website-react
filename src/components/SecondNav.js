@@ -55,7 +55,7 @@ function Nav() {
 
                   <button
                     href="#"
-                    className="bg-[#FC5723] text-white hover:text-black font-bold py-2 px-4 rounded-full"
+                    className="bg-[#1AADD8] text-white hover:text-black font-bold py-2 px-4 rounded-full"
                   >
                     CONTACT US 
                   </button>
@@ -161,7 +161,7 @@ function Nav() {
 
                   <button
                     href="#"
-                    className="bg-[#FC5723] h-[65px] mr-[500px] w-[100px] text-[15px] text-white hover:text-black font-bold py-2 px-4 rounded-full"
+                    className="bg-[#1AADD8] h-[65px] mr-[500px] w-[100px] text-[15px] text-white hover:text-black font-bold py-2 px-4 rounded-full"
                   >
                     CONTACT US 
                   </button>

@@ -4,13 +4,13 @@ import Img1 from "../assets/sol1.png";
 import Img2 from "../assets/sol2.png";
 const SecondSolt = () => {
     return (
-        <div className="flex bg-[#282F35] lg:w-[1920px] lg:h-[982px] md:w-full md:h-[700px] sm:h-[600px] sm:w-auto  relative" id="solutions">
+        <div className="flex bg-[#0A2C59] lg:w-[1920px] lg:h-[982px] md:w-full md:h-[700px] sm:h-[600px] sm:w-auto  relative" id="solutions">
             {/*Head content div*/}
             {/*End of head content div*/}
             {/*Content div*/}
             <div className="lg:space-x-[150px] lg:flex lg:flex-row md:flex-col sm:flex-col">
                 {/*First image div*/}
-                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[85px] lg:ml-[150px] lg:mb-[99px] bg-[#1B2022] rounded-[20px] md:h-[300px] md:w-[250px] md:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[70px] sm:mt-[50px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[85px] lg:ml-[150px] lg:mb-[99px] bg-[#0A3E78] rounded-[20px] md:h-[300px] md:w-[250px] md:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[70px] sm:mt-[50px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
                     {/*First image text div*/}
                     <div className="lg:h-[49px] lg:w-[356px] lg:mt-[35px] lg:ml-[38px] lg:mr-[345px] md:h-[10px] md:w-full">
                         <p className="text-white lg:text-[35px] md:text-[25px] md:ml-[20px] sm:text-[20px] sm:ml-[15px]">VR INTEGRATION</p>
@@ -28,7 +28,7 @@ const SecondSolt = () => {
                 </div>
                 {/*End of first image div*/}
                 {/*Second image div*/}
-                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[85px] lg:ml-[50px] lg:mb-[99px] bg-[#1B2022] rounded-[20px] md:h-[300px] md:w-[300px] md:mt-[50px] sm:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[70px] sm:mt-[40px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+                <div className="lg:h-[738px] lg:w-[738px] lg:mt-[85px] lg:ml-[50px] lg:mb-[99px] bg-[#0A3E78] rounded-[20px] md:h-[300px] md:w-[300px] md:mt-[50px] sm:mt-[50px] sm:h-[250px] sm:w-[250px] sm:ml-[70px] sm:mt-[40px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
                     {/*Second image text div*/}
                     <div className="lg:h-[49px] lg:w-[356px] lg:mt-[35px] lg:ml-[38px] lg:mr-[345px] md:h-[10px] md:w-full">
                         <p className="text-white lg:text-[35px] md:text-[25px] md:ml-[20px] sm:text-[20px]">VR INTEGRATION</p>

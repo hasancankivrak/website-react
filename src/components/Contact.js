@@ -21,13 +21,13 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-[#282F35] lg:w-[1920px] lg:h-[982px] sm:w-auto sm:h-auto">
+        <div className="bg-[#0A2C59] lg:w-[1920px] lg:h-[982px] sm:w-auto sm:h-auto">
             {/*Header*/}
             <div className="flex flox-row ml-[10px]">
-                <div style={{ borderTop: "6px solid #FC5723 ", }} className="lg:w-[581px] lg:ml-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:mr-[5px]">
+                <div style={{ borderTop: "6px solid #1FACD7 ", }} className="lg:w-[581px] lg:ml-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:mr-[5px]">
                 </div>
                 <div className="text-center lg:text-[51px] lg:ml-[30px] lg:mr-[30px] sm:text-[30px]">CONTACT US</div>
-                <div style={{ borderTop: "6px solid #FC5723 ", }} className="lg:w-[581px] lg:mr-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:ml-[5px]"></div>
+                <div style={{ borderTop: "6px solid #1FACD7 ", }} className="lg:w-[581px] lg:mr-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:ml-[5px]"></div>
             </div>
             {/*End Of Header*/}
             {/*Form div*/}
@@ -42,21 +42,20 @@ const Contact = () => {
                     <input name="message" type="textarea" className="lg:w-[637px] lg:h-[377px] text-black rounded-[30px] lg:mt-[205px] sm:h-[300px] sm:w-[300px] sm:mt-[50px] sm:ml-[-40px]" placeholder="Message"></input>
                     {/*Button div*/}
                     <div>
-                        <button type="submit" className="bg-[#FC5723] lg:rounded-[50px] lg:w-[252px] lg:h-[83px] lg:ml-[-840px] lg:mt-[654px] sm:ml-[10px] sm:mt-[50px] sm:h-[50px] sm:w-[200px] sm:rounded-[40px]">Send now</button>
+                        <button type="submit" className="bg-[#1BADD6] lg:rounded-[50px] lg:w-[252px] lg:h-[83px] lg:ml-[-840px] lg:mt-[654px] sm:ml-[10px] sm:mt-[50px] sm:h-[50px] sm:w-[200px] sm:rounded-[40px]">Send now</button>
                     </div>
                 </form>
             </div>
             {/*End of form div*/}
             {/*Line div*/}
-            <div style={{ borderTop: "6px solid #FC5723 ", }} className="lg:w-auto lg:ml-[181px] lg:mt-[40px] sm:w-auto sm:mt-[20px] sm:mr-[5px]">
+            <div style={{ borderTop: "6px solid #1FACD7 ", }} className="lg:w-auto lg:ml-[181px] lg:mt-[40px] sm:w-auto sm:mt-[20px] sm:mr-[5px]">
             </div>
             {/*End of line div*/}
             {/*Copyright div*/}
-            <div className="lg:h-[231] lg:w-[1920] bg-[#282F35] sm:w-auto sm:w-auto">
+            <div className="lg:h-[231] lg:w-[1920] bg-[#0A2C59] sm:w-auto sm:w-auto">
                 <img src={Logo} alt="logo" className="lg:h-[75px] lg:w-[273px] lg:ml-[177px] lg:mt-[53px] sm:h-[50px] sm:w-[200px] sm:ml-[85px] sm:mt-[20px]" /><br />
                 <p className="lg:text-[24px] text-white text-center lg:ml-[-1250px] lg:mt-[-1px] lg:mb-[48px] sm:ml-[20px] sm:text-[20px]"> Aybee Bilişim ve Yazılım Hizmetleri A.Ş.</p><br />
                 <p className="text-white text-center sm:text-[20px]">© All Rights Reserved.</p>
-                <a href="#"><button className="bg-[#FC5723] lg:text-[25px] text-center text-black rounded-full lg:ml-[1730px] lg:w-[87px] lg:h-[87px] sm:ml-[320px] sm:mt-[1px]"><p className="text-5xl" >↑</p></button></a>
             </div>
             <div></div>
             {/*End of copyright div*/}
