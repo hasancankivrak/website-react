@@ -21,7 +21,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-[#0A2C59] lg:w-[1920px] lg:h-[982px] sm:w-auto sm:h-auto">
+        <div className="bg-[#0A2C59] lg:w-[1900px] lg:h-[982px] sm:w-auto sm:h-auto">
             {/*Header*/}
             <div className="flex flox-row ml-[10px]">
                 <div style={{ borderTop: "6px solid #1FACD7 ", }} className="lg:w-[581px] lg:ml-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:mr-[5px]">

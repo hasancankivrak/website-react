@@ -158,13 +158,12 @@ function Nav() {
                   >
                     CAREER
                   </p></Link>
-
+                  <a href="/">
                   <button
-                    href="#"
                     className="bg-[#1AADD8] h-[65px] mr-[500px] w-[100px] text-[15px] text-white hover:text-black font-bold py-2 px-4 rounded-full"
                   >
                     CONTACT US 
-                  </button>
+                  </button></a>
                   <div className="flex flex-row ml-[-10px]">
                   <img src={TwLogo} alt="Twitter"></img>
                   <img src={IgLogo} alt="Instagram"></img>

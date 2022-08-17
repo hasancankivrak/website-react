@@ -11,20 +11,20 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-[#F2F2F2] rounded-b-[50px] z-[99] absolute w-full flex" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
+      <nav className="bg-[#F2F2F2] rounded-b-[50px] z-[99] absolute w-[1900px] h-[80px] flex" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between lg:h-[104px] sm:h-[70px]">
             <div className="flex lg:space-x-[290px]">
               <div className="flex-shrink-0 lg:ml-[-890px] lg:mt-[-20px]">
                 <Link to="/">
                   <img
-                    className="lg:h-[57px] lg:w-[208px] lg:mt-[20px] lg:ml-[300px] sm:h-[50px] sm:ml-[10px]"
+                    className="lg:h-[57px] lg:w-[208px] lg:mt-[-5px] lg:ml-[300px] sm:h-[50px] sm:ml-[10px]"
                     src={Logo}
                     alt="logo"
                   /></Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-[10px] flex items-baseline space-x-4 mt-[20px]">
+                <div className="ml-[10px] flex items-baseline space-x-4 mt-[-10px]">
                   <ScrollLink to="solutions">
                     <p
                       href="#"
@@ -134,14 +134,14 @@ function Nav() {
               <div ref={ref} className="ml-[-50px] px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <ScrollLink to="solutions">
                   <p
-                    href="#"
+                    
                     className="text-black mr-[500px] text-[15px] hover:underline"
                   >
                     SOLUTIONS
                   </p></ScrollLink>
                 <ScrollLink to="aboutus">
                   <p
-                    href="#"
+                    
                     className="text-black mr-[500px] text-[15px] hover:underline"
                   >
                     ABOUT US
@@ -149,7 +149,7 @@ function Nav() {
                 </ScrollLink>
                 <ScrollLink to="products">
                   <p
-                    href="#"
+                    
                     className="text-black mr-[500px] text-[15px] hover:underline"
                   >
                     PRODUCTS

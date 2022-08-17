@@ -5,7 +5,7 @@ import Img2 from "../assets/griffin.png";
 import Img3 from "../assets/btnimg.png";
 const Products = () => {
     return (
-        <div className="flex bg-[#0A3E78] lg:w-[1920px] lg:h-[982px] md:w-full md:h-[700px] sm:h-[2000px] sm:w-auto  relative" id="products" >
+        <div className="flex bg-[#0A3E78] lg:w-[1900px] lg:h-[982px] md:w-[1900px] md:h-[700px] sm:h-[2000px] sm:w-auto  relative" id="products" >
             {/*Head content div*/}
             <div className="flex flox-row ml-[10px]">
             <div style={{ borderTop: "6px solid #1FACD7 ",}} className="lg:w-[581px] lg:ml-[181px] lg:mt-[30px] sm:w-[80px] sm:mt-[20px] sm:mr-[5px]">

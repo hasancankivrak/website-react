@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../assets/banner.png";
 const Banner = () => {
     return (
-            <div className="flex lg:h-[922px] lg:w-[1920px]" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+            <div className="flex lg:h-[922px] lg:w-[1900px]" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
                 <div className="flex flex-col lg:flex-row">
                         <div class="relative">
                             <img src={Img} className="lg:h-full lg:w-full md:h-[300px] md:w-[500px] sm:h-[300px] sm:w-[400px]"/>
