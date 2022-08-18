@@ -23,7 +23,7 @@ const CareerForm = () => {
     return (
         <>
             <SecondNav />
-            <div className="lg:w-[1920px] lg:h-[1399px] lg:bg-[#0A2C59] sm:bg-[#1B2022] relative sm:w-auto sm:h-auto">
+            <div className="lg:w-[1920px] lg:h-[1399px] lg:bg-[#0A2C59] sm:bg-[#0A2C59] relative sm:w-auto sm:h-auto">
                 <div className="flex flox-row ml-[10px]">
                     <div style={{ borderTop: "6px solid #1FACD7 ", }} className="lg:w-[581px] lg:ml-[181px] lg:mt-[140px] sm:w-[110px] sm:mt-[110px] sm:mr-[5px]">
                     </div>
@@ -52,7 +52,7 @@ const CareerForm = () => {
                 </div>
                 {/*End of line div*/}
                 {/*Copyright div*/}
-                <div className="lg:h-[231] lg:w-[1920] lg:bg-[#0A2C59] sm:bg-[#1B2022] sm:w-auto sm:w-auto">
+                <div className="lg:h-[231] lg:w-[1920] lg:bg-[#0A2C59] sm:bg-[#0A2C59] sm:w-auto sm:w-auto">
                     <img src={Logo} alt="logo" className="lg:h-[75px] lg:w-[273px] lg:ml-[177px] lg:mt-[53px] sm:h-[50px] sm:w-[200px] sm:ml-[85px] sm:mt-[20px]" /><br />
                     <p className="lg:text-[24px] text-white text-center lg:ml-[-1250px] lg:mt-[-1px] lg:mb-[48px] sm:ml-[20px] sm:text-[20px]"> Aybee Bilişim ve Yazılım Hizmetleri A.Ş.</p><br />
                     <p className="text-white text-center sm:text-[20px]">© All Rights Reserved.</p>

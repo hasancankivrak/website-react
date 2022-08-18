@@ -6,68 +6,66 @@ import TwLogo from "../assets/twlogo.png";
 import FbLogo from "../assets/fblogo.png";
 import IgLogo from "../assets/iglogo.png";
 import LnLogo from "../assets/lnlogo.png";
+import Maillogo from "../assets/mail.png";
 import { Link } from "react-router-dom";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-[#F2F2F2] rounded-b-[50px] z-[99] absolute w-[1900px] h-[80px] flex" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
+      <nav className="bg-[#F2F2F2] rounded-b-[50px] z-[99] absolute lg:w-[1900px] lg:h-[65px]  sm:w-[350px] sm:h-[65px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between lg:h-[104px] sm:h-[70px]">
-            <div className="flex lg:space-x-[290px]">
+          <div className="flex items-center  lg:h-[104px] lg:w-[1500px] sm:h-[70px]">
+            <div className="flex lg:space-x-[140px] lg:mt-[-20px] sm:space-x-[10px]">
               <div className="flex-shrink-0 lg:ml-[-890px] lg:mt-[-20px]">
                 <Link to="/">
                   <img
-                    className="lg:h-[57px] lg:w-[208px] lg:mt-[-5px] lg:ml-[300px] sm:h-[50px] sm:ml-[10px]"
+                    className="lg:h-[40px] lg:w-[150px] lg:mt-[5px] lg:ml-[650px] sm:h-[30px] sm:ml-[10px]"
                     src={Logo}
                     alt="logo"
                   /></Link>
               </div>
-              <div className="hidden md:block">
-                <div className="ml-[10px] flex items-baseline space-x-4 mt-[-10px]">
-                  <ScrollLink to="solutions">
-                    <p
-                      href="#"
-                      className="text-gray-700 text-[20px] font-bold hover:underline hover:text-black"
-                    >
-                      SOLUTIONS
-                    </p></ScrollLink>
-                  <ScrollLink to="aboutus">
-                    <p
-                      href="#"
-                      className="text-gray-700 text-[20px] font-bold hover:underline hover:text-black"
-                    >
-                      ABOUT US
-                    </p></ScrollLink>
-                  <ScrollLink to="products">
-                    <p
-                      href="#"
-                      className="text-gray-700 text-[20px] font-bold hover:underline hover:text-black"
-                    >
-                      PRODUCTS
-                    </p></ScrollLink>
-                  <Link to="./CareerPage">
-                    <p
-                      className="text-gray-700 text-[20px] font-bold hover:underline hover:text-black"
-                    >
-                      CAREER
-                    </p></Link>
-
-                  <button
-                    href="#"
-                    className="bg-[#1AADD8] text-white hover:text-black font-bold py-2 px-4 rounded-full"
-                  >
-                    CONTACT US
-                  </button>
-                  <div className="flex flex-row h-[29px] w-[151px] mt-[-2px]">
-                    <img src={TwLogo} alt="Twitter"></img>
-                    <img src={IgLogo} alt="Instagram"></img>
-                    <img src={FbLogo} alt="Facebook"></img>
-                    <img src={LnLogo} alt="Linkedin"></img>
+              <div className="hidden md:block ">
+                <div className="flex flex-row ">
+                  <div className="ml-[80px] flex items-center mt-[-10px]">
+                    <ScrollLink to="solutions">
+                      <p
+                        className="text-gray-700 text-[20px] ml-[20px] font-bold hover:underline hover:text-black"
+                      >
+                        SOLUTIONS
+                      </p></ScrollLink>
+                    <ScrollLink to="aboutus">
+                      <p
+                        className="text-gray-700 text-[20px] ml-[20px] font-bold hover:underline hover:text-black"
+                      >
+                        ABOUT US
+                      </p></ScrollLink>
+                    <ScrollLink to="products">
+                      <p
+                        className="text-gray-700 text-[20px] ml-[20px] font-bold hover:underline hover:text-black"
+                      >
+                        PRODUCTS
+                      </p></ScrollLink>
+                    <Link to="./CareerPage">
+                      <p
+                        className="text-gray-700 text-[20px] ml-[20px] font-bold hover:underline hover:text-black"
+                      >
+                        CAREER
+                      </p></Link>
+                    <ScrollLink to="contactus">
+                      <button
+                        className="bg-[#1AADD8] w-[230px] ml-[20px] h-[40px] text-white hover:text-black font-bold py-2 px-4 rounded-full"
+                      >
+                        CONTACT US
+                      </button></ScrollLink>
+                    <div className="flex flex-row space-x-[20px] ml-[500px] mt-[-10px]">
+                      <a href="mailto:hasancankivrak@gmail.com"><img src={Maillogo} alt="Mail"></img></a>
+                      <img src={LnLogo} alt="Linkedin" className="h-[32px] w-[32px]"></img>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -130,18 +128,17 @@ function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden text-left items-center mt-[50px]" id="mobile-menu">
-              <div ref={ref} className="ml-[-50px] px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div className="md:hidden text-left items-center  bg-white rounded-[20px] mt-[-4px]" id="mobile-menu">
+              <div ref={ref} className="ml-[50px] px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
                 <ScrollLink to="solutions">
                   <p
-                    
                     className="text-black mr-[500px] text-[15px] hover:underline"
                   >
                     SOLUTIONS
                   </p></ScrollLink>
                 <ScrollLink to="aboutus">
                   <p
-                    
+
                     className="text-black mr-[500px] text-[15px] hover:underline"
                   >
                     ABOUT US
@@ -149,7 +146,7 @@ function Nav() {
                 </ScrollLink>
                 <ScrollLink to="products">
                   <p
-                    
+
                     className="text-black mr-[500px] text-[15px] hover:underline"
                   >
                     PRODUCTS
@@ -161,17 +158,14 @@ function Nav() {
                   >
                     CAREER
                   </p></Link>
-
+                 <ScrollLink to="contactus">
                 <button
-                  href="#"
-                  className="bg-[#1AADD8] h-[65px] mr-[500px] w-[100px] text-[15px] text-white hover:text-black font-bold py-2 px-4 rounded-full"
+                  className="bg-[#1AADD8] h-[65px] mr-[500px] w-[150px] text-[15px] text-white hover:text-black font-bold py-2 px-4 rounded-full"
                 >
                   CONTACT US
-                </button>
+                </button></ScrollLink>
                 <div className="flex flex-row ml-[-10px]">
-                  <img src={TwLogo} alt="Twitter"></img>
-                  <img src={IgLogo} alt="Instagram"></img>
-                  <img src={FbLogo} alt="Facebook"></img>
+                <a href="mailto:hasancankivrak@gmail.com"><img src={Maillogo} alt="mail"></img></a>
                   <img src={LnLogo} alt="Linkedin"></img>
                 </div>
               </div>

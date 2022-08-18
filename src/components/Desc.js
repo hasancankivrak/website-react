@@ -3,17 +3,17 @@ import Logo from "../assets/logo2.png";
 import "./desc.css";
 const Desc = () => {
     return (
-        <div className="flex bg-[#0A3E78] relative lg:h-[500px] lg:w-[1900px] sm:w-auto sm:h-auto md:w-[500px] md:h-[500px] " id="aboutus" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
+        <div className="flex bg-[#0A3E78] relative lg:h-[500px] lg:w-[1900px] sm:w-auto sm:h-auto md:w-[500px] md:h-[500px] " id="aboutus">
             {/*Text and image div*/}
             <div className="lg:space-x-[1px] lg:flex lg:flex-row md:flex-col sm:flex-col">
                 <div className="lg:space-y-[30px] md:flex-col md:space-y-[0px] sm:flex-col sm:space-y-[0px]">
                     {/*Head div*/}
-                    <div className="lg:w-[386px] lg:h-[63px] lg:mt-[30px] lg:ml-[50px] md:w-[250px] md:h-[200px] sm:h-[100px] sm:w-[200px] sm:text-left sm:mt-[10px]">
+                    <div className="lg:w-[386px] lg:h-[63px] lg:mt-[30px] lg:ml-[100px] md:w-[250px] md:h-[200px] sm:h-[100px] sm:w-[200px] sm:text-left sm:mt-[10px]">
                         <p className="lg:text-white lg:font-bold lg:text-[51px] lg:w-[400px] md:w-[550px] md:text-center md:text-[30px] md:mt-[20px] md:ml-[-30px] sm:h-[50px] lg:h-[63px] sm:w-[50px] sm:text-[25px] sm:ml-[100px] sm:text-center sm:w-[150px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000"> WHO WE ARE?</p>
                     </div>
                     {/* End Of Head div*/}
                     {/*Content div*/}
-                    <div className="lg:w-[1200px] lg:h-[278px] lg:ml-[70px] md:h-[300px] md:w-[800px] md:ml-[20px] sm:h-[100px] sm:w-[300px] sm:h-[100px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+                    <div className="lg:w-[1200px] lg:h-[278px] lg:ml-[120px] md:h-[300px] md:w-[800px] md:ml-[20px] sm:h-[100px] sm:w-[300px] sm:h-[100px]" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
                         <p className="lg:text-white lg:text-[25px] lg:mt-[50px] lg:text-left lg:ml-[-40px] md:text-center md:mr-[390px] md:text-[15px] md:mt-[-140px] md:ml-[55px] sm:text-center sm:text-[15px] sm:ml-[50px]">
                             As Aybee,we have been focusing on making a difference
                             by signing innovative projects since our establishment in 2021.

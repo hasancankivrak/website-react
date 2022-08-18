@@ -21,7 +21,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-[#0A2C59] lg:w-[1900px] lg:h-[982px] sm:w-auto sm:h-auto">
+        <div className="bg-[#0A2C59] lg:w-[1900px] lg:h-[982px] sm:w-auto sm:h-auto" id="contactus">
             {/*Header*/}
             <div className="flex flox-row ml-[10px]">
                 <div style={{ borderTop: "6px solid #1FACD7 ", }} className="lg:w-[581px] lg:ml-[181px] lg:mt-[40px] sm:w-[80px] sm:mt-[20px] sm:mr-[5px]">
@@ -42,7 +42,7 @@ const Contact = () => {
                     <input name="message" type="textarea" className="lg:w-[637px] lg:h-[377px] text-black rounded-[30px] lg:mt-[205px] sm:h-[300px] sm:w-[300px] sm:mt-[50px] sm:ml-[-40px]" placeholder="Message"></input>
                     {/*Button div*/}
                     <div>
-                        <button type="submit" className="bg-[#1BADD6] lg:rounded-[50px] lg:w-[252px] lg:h-[83px] lg:ml-[-840px] lg:mt-[654px] sm:ml-[10px] sm:mt-[50px] sm:h-[50px] sm:w-[200px] sm:rounded-[40px]">Send now</button>
+                        <button type="submit" className="bg-[#1BADD6] lg:rounded-[50px] lg:text-[40px] hover:text-[#1BADD6] hover:bg-white text-black lg:w-[352px] lg:h-[83px] font-bold lg:ml-[-900px] lg:mt-[654px] sm:ml-[10px] sm:mt-[50px] sm:h-[50px] sm:w-[200px] sm:rounded-[40px]">Send now</button>
                     </div>
                 </form>
             </div>
@@ -53,8 +53,8 @@ const Contact = () => {
             {/*End of line div*/}
             {/*Copyright div*/}
             <div className="lg:h-[231] lg:w-[1920] bg-[#0A2C59] sm:w-auto sm:w-auto">
-                <img src={Logo} alt="logo" className="lg:h-[75px] lg:w-[273px] lg:ml-[177px] lg:mt-[53px] sm:h-[50px] sm:w-[200px] sm:ml-[85px] sm:mt-[20px]" /><br />
-                <p className="lg:text-[24px] text-white text-center lg:ml-[-1250px] lg:mt-[-1px] lg:mb-[48px] sm:ml-[20px] sm:text-[20px]"> Aybee Bilişim ve Yazılım Hizmetleri A.Ş.</p><br />
+                <img src={Logo} alt="logo" className="lg:h-[55px] lg:w-[193px] lg:ml-[177px] lg:mt-[53px] sm:h-[50px] sm:w-[200px] sm:ml-[85px] sm:mt-[20px]" /><br />
+                <p className="lg:text-[24px] text-white text-center lg:ml-[-1050px] lg:mt-[-1px] lg:mb-[48px] sm:ml-[20px] sm:text-[20px]"> Aybee Bilişim ve Yazılım Hizmetleri A.Ş.</p><br />
                 <p className="text-white text-center sm:text-[20px]">© All Rights Reserved.</p>
             </div>
             <div></div>
